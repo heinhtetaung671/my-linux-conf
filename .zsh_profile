@@ -1,0 +1,12 @@
+#Custom zsh configurations
+newPath=$PATH;
+JAVA_21="/usr/share/jdk/jdk-21.0.3/bin"	;
+INTELLIJ="/home/heinhtetaung/IDEs/idea-IU-241.15989.150/bin";
+
+#add jdk21
+newPath=$JAVA_21:$newPath;
+#add intellij
+newPath=$INTELLIJ:$newPath;
+
+alias intellij="~/IDEs/idea-IU-241.15989.150/bin/idea.sh";
+export PATH=$newPath;
